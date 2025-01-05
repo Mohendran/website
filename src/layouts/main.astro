@@ -1,9 +1,18 @@
 ---
+import { SEO } from "astro-seo";
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 import SquareLines from "../components/square-lines.astro";
 import Analytics from "@vercel/analytics/astro";
 const { title } = Astro.props;
+
+const canonicalURL = 'https://sparker.tech';
+
+const resolvedImageWithDomain = "https://sparker.tech/opengraph.png";
+
+const makeTitle = title
+  ? title + " | " + "Next.js Developer | React Developer | Front-End Developer | India | Mohendran"
+  : "Next.js Developer | React Developer | Front-End Developer | India | Mohendran";
 ---
 
 <!doctype html>
@@ -13,8 +22,31 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
 
-    <meta name="description" content="Mohendran's Blog" />
-    <meta name="author" content="Mohendran" />
+    <SEO
+      title={makeTitle}
+      description="Mohendran, a Front-end web developer with expertise in building amazing SaaS Apps using Angular, React.js, Next.js, Supabase, Firebase"
+      canonical={canonicalURL}
+      twitter={{
+        creator: "@mohe_js",
+        site: "@mohe_js",
+        card: "summary_large_image",
+      }}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: makeTitle,
+          image: resolvedImageWithDomain,
+        },
+        image: {
+          alt: "Next.js Developer | React Developer | Front-End Developer | India | Mohendran",
+        },
+      }}
+    />
+    <meta name="og:site_name" content="Sparker.Tech">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:image:alt" content="Next.js Developer | React Developer | Front-End Developer | India | Mohendran">
+
     <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script is:inline>
       if (typeof Storage !== 'undefined') {
