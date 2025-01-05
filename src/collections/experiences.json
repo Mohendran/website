@@ -1,30 +1,44 @@
 [
 	{
-		"dates": "Jun 2023 · Aug 2024",
-		"role": "Senior Front-end Developer",
-		"company": "Happyfox",
-		"description": "Responsible for brainstorming ideas and developing UI for the products. Adding AI Features to a Customer Support Platform",
+		"dates": "Nov 2024 · Present",
+		"role": "Founder",
+		"company": "DealAmigo",
+		"description": "➔ Collaborating with B2B sales teams to gather and refine requirements. \n ➔ Developing a SaaS application using Next.js & Supabase to create a dynamic Digital Sales Room for enhancing Lead Engagement, shortening Sales Cycle, and closing Deals Faster.",
+		"logo": "/assets/images/experiences/dealamigo.png"
+	},
+	{
+		"dates": "Jun 2023 · Oct 2024",
+		"role": "Senior Frontend Developer",
+		"company": "HappyFox",
+		"description": "➔ Collaborated with a talented team to develop innovative AI applications, including an AI Chatbot, AI Copilot, AI Writing Assistant, and AI Knowledge Base. \n ➔ Analyzed competitors, assessed their products, and partnered with stakeholders to create a SaaS solution that enhances customer support.",
 		"logo": "/assets/images/experiences/happyfox.png"
 	},
 	{
-		"dates": "Jan 2022 · April 2023",
-		"role": "Associate Product Owner",
-		"company": "Calibraint",
-		"description": "Sales CRM Product - Managing a cross-functional team. Also worked on a few projects for clients",
+		"dates": "Jan 2022 · Apr 2023",
+		"role": "Product Owner",
+		"company": "Maxis CRM",
+		"description": "➔ Collaborated with stakeholders and potential leads to collect requirements, conduct market research, and convert them into clear, actionable features. \n ➔ Worked with Cross-Functional Teams, including Marketing, Sales, Development, and QA, to get the Product from MVP to Launch.",
+		"logo": "/assets/images/experiences/maxiscrm.png"
+	},
+	{
+		"dates": "Feb 2020 · Jan 2022",
+		"role": "Tech Lead",
+		"company": "Calibraint Technologies",
+		"description": "➔ Set up codebases for projects, reviewed and managed pull requests, and worked on improving code quality to ensure clean and efficient development. \n ➔ Led multiple teams of junior developers, mentoring them to boost productivity and deliver results efficiently.",
 		"logo": "/assets/images/experiences/calibraint.jpeg"
 	},
 	{
 		"dates": "May 2018 · Jan 2022",
-		"role": "Tech Lead",
-		"company": "Calibraint",
-		"description": "Architecting and Developing Frontend for new products, Managing a team of 5+ developers",
+		"role": "Senior Frontend Developer",
+		"company": "Calibraint Technologies",
+		"description": "➔ Developed an E-Commerce SaaS platform for Printing and Custom Decoration businesses to manage their contacts (CRM), orders, purchasing, organize designs, and improve their workflow. \n ➔ Worked closely with an amazing team to ensure the delivery of Top-notch Solutions. \n ➔ Transformed Figma designs into fully functional, real-world applications.",
 		"logo": "/assets/images/experiences/calibraint.jpeg"
 	},
 	{
 		"dates": "Aug 2016 · May 2018",
-		"role": "JS Developer",
-		"company": "Calibraint",
-		"description": "Work on Client Projects using Angular, React, Redux. Worked in an Agile Environment",
+		"role": "Javascript Developer",
+		"company": "Calibraint Technologies",
+		"description": "➔ Developed 10+ MVPs for Clients with expertise in building Chatbots, Audio Social Media Platform, and E-Commerce Platform with Scraped data. \n ➔ Worked closely with Clients to meet their requirements.",
 		"logo": "/assets/images/experiences/calibraint.jpeg"
 	}
 ]
