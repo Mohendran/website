@@ -1,23 +1,23 @@
 [
 	{
 		"name": "Home",
-		"url": "/website"
+		"url": "/"
 	},
 	{
 		"name": "Build your MVP",
-		"url": "/website/build-your-mvp"
+		"url": "/build-your-mvp"
 	},
 	{
 		"name": "My Portfolio",
-		"url": "/website/projects"
+		"url": "/projects"
 	},
 	{
 		"name": "Blog",
-		"url": "/website/posts"
+		"url": "/posts"
 	},
 	{
 		"name": "Resume",
 		"isDownload": true,
-		"url": "/website/Mohendran_FrontEnd.pdf"
+		"url": "/Mohendran_FrontEnd.pdf"
 	}
 ]
