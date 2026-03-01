@@ -9,11 +9,11 @@ export default defineConfig({
   site: 'https://mohendran.github.io',
   base: '/website',
 	integrations: [tailwind()],
-	output: 'server',
-  adapter: vercel({
-    webAnalytics: {
-      enabled: true,
-    },
-    maxDuration: 8,
-  }),
+	// output: 'server',
+  // adapter: vercel({
+  //   webAnalytics: {
+  //     enabled: true,
+  //   },
+  //   maxDuration: 8,
+  // }),
 });

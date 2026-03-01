@@ -1,26 +1,16 @@
 ---
 import { getCollection } from "astro:content";
 
-// export async function getStaticPaths() {
-// 	const postEntries = await getCollection("post");
-// 	return postEntries.map((entry) => ({
-// 		params: { slug: entry.slug },
-// 		props: { entry },
-// 	}));
-// }
+export async function getStaticPaths() {
+  const posts = await getCollection("post");
 
-// const { entry } = Astro.props;
-// const { Content } = await entry.render();
-
-// Get the post directly using the slug from params
-const { slug } = Astro.params;
-const posts = await getCollection('post');
-const post = posts.find(post => post.slug === slug);
-
-// Handle 404 if post doesn't exist
-if (!post) {
-  return Astro.redirect('/404');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
 }
+
+const { post } = Astro.props;
 
 const { Content } = await post.render();
 ---
